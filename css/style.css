@@ -65,4 +65,46 @@ footer {
 
 /* debug */
 
+.debug header .row {
+    height: 100%;
+    /* background-color: red; */
+}
 
+.debug header .col-6{
+    /* background-color: blue; */
+    border: 1px solid black;
+}
+
+.debug #jumbo .container {
+    height: 100%;
+    background-color: salmon;
+}
+
+.debug #portfolio .container{
+    height: 100%;
+    background-color: sandybrown;
+}
+
+.debug #about .container {
+    height: 100%;
+    background-color: slateblue;
+}
+
+.debug #contact-me .container {
+    height: 100%;
+    background-color: slategrey;
+}
+
+.debug .footer-top .container {
+    height: 100%;
+    background-color: yellow;
+}
+
+.debug .footer-top .row {
+    height: 100%;
+}
+
+.debug .footer-top .col-4 {
+    height: 100%;
+    border: 1px solid black;
+}
