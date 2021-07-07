@@ -5,5 +5,43 @@
 }
 
 .box {
+    height: 100%;
     background-color: blue;
+} 
+
+header {
+    height: 60px;
+    background-color: #2C3E50;
+}
+
+#jumbo {
+    height: 400px;
+    background-color: #1ABC9C;
+}
+
+#portfolio {
+    height: 500px;
+}
+
+#about {
+    height: 300px;
+    background-color: #1ABC9C;
+}
+
+#contact-me {
+    height: 500px;
+}
+
+footer {
+    height:250px;
+}
+
+.footer-top {
+    height: calc(100% - 60px);
+    background-color: #3A546D;
+}
+
+.footer-bottom {
+    height: 60px;
+    background-color: #2C3E50;
 }
