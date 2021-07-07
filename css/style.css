@@ -4,20 +4,31 @@
     box-sizing: border-box;
 }
 
-.box {
-    height: 100%;
-    background-color: blue;
-} 
+/* common */
+body {
+    font-family: helvetica, sans-serif, serif;
+}
+/* /common */
+
+/* header */
 
 header {
     height: 60px;
     background-color: #2C3E50;
 }
 
+/* /header */
+
+/* jumbotron */
+
 #jumbo {
     height: 400px;
     background-color: #1ABC9C;
 }
+
+/* /jumbotron */
+
+/* main */
 
 #portfolio {
     height: 500px;
@@ -32,6 +43,10 @@ header {
     height: 500px;
 }
 
+/* /main */
+
+/* footer */
+
 footer {
     height:250px;
 }
@@ -45,3 +60,9 @@ footer {
     height: 60px;
     background-color: #2C3E50;
 }
+/* /footer */
+
+
+/* debug */
+
+
