@@ -35,6 +35,11 @@ header ul a {
     background-color: #1ABC9C;
 }
 
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 /* /jumbotron */
 
 /* main */
@@ -69,10 +74,23 @@ footer {
     background-color: #3A546D;
 }
 
+.footer-top .row p {
+    font-size: 15px;
+}
+
+.footer-top .row i {
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50% ;
+}
+
 .footer-bottom {
     height: 60px;
     background-color: #2C3E50;
 }
+
+
 /* /footer */
 
 
@@ -83,36 +101,35 @@ footer {
     /* background-color: red; */
 }
 
-.debug #jumbo .container {
+/* .debug #jumbo .container {
     height: 100%;
     background-color: salmon;
-}
+} */
 
 .debug #portfolio .container{
     height: 100%;
     background-color: sandybrown;
 }
 
-.debug #about .container {
+/* .debug #about .container {
     height: 100%;
     background-color: slateblue;
-}
+} */
 
 .debug #contact-me .container {
     height: 100%;
     background-color: slategrey;
 }
 
-.debug .footer-top .container {
+/* .debug .footer-top .container {
     height: 100%;
     background-color: yellow;
-}
+} */
 
-.debug .footer-top .row {
+/* .debug .footer-top .row {
     height: 100%;
 }
 
 .debug .footer-top .col-4 {
     height: 100%;
-    border: 1px solid black;
-}
+} */
