@@ -64,6 +64,20 @@ header ul a {
     color: white;
 }
 
+.collapsed-menu {
+    display: block;
+}
+
+.v-line {
+    line-height: 60px;
+}
+
+.ms_hamburger-menu {
+    display: none;
+    color: white;
+    font-size: 25px;
+}
+
 /* /header */
 
 /* jumbotron */
@@ -93,10 +107,6 @@ header ul a {
 
 #about {
     background-color: #1ABC9C;
-}
-
-#contact-me {
-    /* height: 600px; */
 }
 
 #contact-me input {
@@ -134,6 +144,10 @@ footer {
     font-size: 15px;
 }
 
+.footer-top .row p span {
+    color: #1ABC9C;
+}
+
 .footer-top .row i {
     font-size: 25px;
     border: 1px solid white;
@@ -146,8 +160,20 @@ footer {
     background-color: #2C3E50;
 }
 
-
 /* /footer */
+
+/* media queries  */
+
+@media screen and (max-width: 1000px) {
+    .collapsed-menu {
+        display: none;
+    }
+
+    .ms_hamburger-menu {
+        display: block;
+    }
+}
+/* /media queries  */
 
 
 /* debug */
