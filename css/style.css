@@ -50,48 +50,12 @@ header {
     height: 60px;
     background-color: #2C3E50;
 }
-header h1 {
-    font-size: 25px
-}
-
-header ul {
-    margin: 0;
-}
 
 header ul a {
     font-size: 20px;
     text-decoration: none;
     color: white;
 }
-
-.collapsed-menu {
-    display: block;
-}
-
-.v-line {
-    line-height: 60px;
-}
-
-.ms_hamburger-menu {
-    display: none;
-    position: relative;
-    color: white;
-    font-size: 25px;
-}
-
-.ms_hamburger-menu i {
-    display: block;
-}
-
-.tend-menu {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-
-
 /* /header */
 
 /* jumbotron */
