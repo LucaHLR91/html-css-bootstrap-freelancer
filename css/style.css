@@ -54,6 +54,10 @@ header h1 {
     font-size: 25px
 }
 
+header ul {
+    margin: 0;
+}
+
 header ul a {
     font-size: 20px;
     text-decoration: none;
@@ -84,7 +88,6 @@ header ul a {
     width: 100%;
     margin-bottom: 30px;
     border-radius: 10px;
-    background-color: red;
     overflow: auto;
 }
 
@@ -151,30 +154,30 @@ footer {
 
 /* debug */
 
-.debug header .row {
+/* .debug header .row {
     height: 100%;
-    /* background-color: red; */
-}
+    background-color: red;
+} */
 
 /* .debug #jumbo .container {
     height: 100%;
     background-color: salmon;
 } */
 
-.debug #portfolio .container{
+/* .debug #portfolio .container{
     height: 100%;
-    /* background-color: sandybrown; */
-}
+    background-color: sandybrown;
+} */
 
 /* .debug #about .container {
     height: 100%;
     background-color: slateblue;
 } */
 
-.debug #contact-me .container {
+/* .debug #contact-me .container {
     height: 100%;
-    /* background-color: slategrey; */
-}
+    background-color: slategrey;
+} */
 
 /* .debug .footer-top .container {
     height: 100%;
