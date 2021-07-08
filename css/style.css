@@ -8,6 +8,40 @@
 body {
     font-family: Helvetica, sans-serif,helvetica, sans-serif, serif;
 }
+
+.star {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.star::before,
+.star:after {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    border-radius: 2px;
+    line-height: 4px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.star-dark {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.star-dark::before,
+.star-dark:after {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    border-radius: 2px;
+    line-height: 4px;
+    vertical-align: middle;
+    background-color: black;
+}
 /* /common */
 
 /* header */
@@ -50,6 +84,7 @@ header ul a {
     margin-bottom: 30px;
     border-radius: 10px;
     background-color: red;
+    overflow: auto;
 }
 
 #about {
@@ -58,9 +93,28 @@ header ul a {
 }
 
 #contact-me {
-    height: 500px;
+    height: 600px;
 }
 
+#contact-me input {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid grey;
+}
+
+#contact-me textarea {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid grey;
+    height: 150px;
+}
+
+.ms_btn {
+    color: white;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
 /* /main */
 
 /* footer */
@@ -108,7 +162,7 @@ footer {
 
 .debug #portfolio .container{
     height: 100%;
-    background-color: sandybrown;
+    /* background-color: sandybrown; */
 }
 
 /* .debug #about .container {
@@ -118,7 +172,7 @@ footer {
 
 .debug #contact-me .container {
     height: 100%;
-    background-color: slategrey;
+    /* background-color: slategrey; */
 }
 
 /* .debug .footer-top .container {
