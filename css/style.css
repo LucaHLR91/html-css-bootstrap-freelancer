@@ -92,12 +92,11 @@ header ul a {
 }
 
 #about {
-    height: 350px;
     background-color: #1ABC9C;
 }
 
 #contact-me {
-    height: 600px;
+    /* height: 600px; */
 }
 
 #contact-me input {
@@ -128,7 +127,6 @@ footer {
 }
 
 .footer-top {
-    height: calc(100% - 60px);
     background-color: #3A546D;
 }
 
