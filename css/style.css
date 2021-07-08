@@ -74,9 +74,23 @@ header ul a {
 
 .ms_hamburger-menu {
     display: none;
+    position: relative;
     color: white;
     font-size: 25px;
 }
+
+.ms_hamburger-menu i {
+    display: block;
+}
+
+.tend-menu {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
 
 /* /header */
 
@@ -98,11 +112,27 @@ header ul a {
 /* main */
 
 .ms_portfolio-item {
+    position: relative;
     height: 300px;
     width: 100%;
     margin-bottom: 30px;
     border-radius: 10px;
     overflow: auto;
+}
+
+.layover {
+    display: none;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 50px;
+    line-height: 300px;
+    text-align: center;
+}
+
+.ms_portfolio-item:hover .layover {
+    display: block;
 }
 
 #about {
